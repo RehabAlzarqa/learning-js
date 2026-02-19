@@ -1,50 +1,37 @@
+const numbers = [1, 2, 3, 4, 5];
+const newNumber = numbers.map((n) => {
+  return n * n;
+});
+console.log(newNumber);
+
+const prices = [100, 200, 300];
+const newprice = prices.map((p) => {
+  return p * 1.1;
+});
+console.log(newprice);
+
+const names =  ["john", "mary", "alex"];
+const newnames = names.map((n) => {
+  return n [0].toLocaleUpperCase();
+});
+console.log(newnames);
+
+
+const numberese =  [5,10,15];
+const newnumberese = numberese.map((n) => {
+  return 
+});
+console.log(newnumberese);
+
+
 const users = [
-  { name: "Ahmed", age: 25, city: "Cairo" },
-  { name: "Sameh", age: 30, city: "Alex" },
-  { name: "Aya", age: 22, city: "Giza" },
+  { id: 1, name: "John" },
+  { id: 2, name: "Mary" },
+  { id: 3, name: "Alex" }
 ];
-console.table(users);
-// Array of Objects when i what to use it in console
-//console.group()
-//console.groupEnd()
-console.table(["Elzero", "Ahmed", "Sameh", "Gamal", "Aya"]);
-// two colum in table (index + value)
 
-//🧪 JavaScript Quiz
+const newuserss = users.map((u)= >{
+ return user.name;
+});
 
-//✅ Instructions
-
-//You must follow all rules exactly.
-
-//🟢 Task 01
-
-//Create two variables named:
-
-//numberOne
-
-//numberTwo
-
-//Follow correct JavaScript variable naming rules.
-
-//numberOne value is 10 and its data type is Number
-
-//numberTwo value is 20 and its data type is Number
-
-//Then complete the following output requirements:
-
-
-
-const ar = "rehab alzarqa";
-console.log(ar.indexOf("rehab"));
-const a = "rehab alzarqa";
-console.log(a.indexOf("rehab"));
-console.log(a.indexOf("rehab", 2));
-
-console.log(a.lastIndexOf("a"));
-console.log(a.slice(0)); // start and end index so  recult here is ehab alzarqa and not encloding the end
-console.log(a.slice(-2)); // negative value
-console.log(a.repeat(3)); // will repete yor var value 3 times
-console.log(a.split("")); // arrays , cutting the value
-console.log(a.substring(3));
-
-
+console.log(newuserss);
